@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  proxy:
+    build: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./config.yaml:/app/config.yaml
+    
+  cnt1:
+    image: stenote/nginx-hostname
+    hostname: cnt1
+  cnt2:
+    image: stenote/nginx-hostname
+    hostname: cnt2
+  cnt3:
+    image: stenote/nginx-hostname
+    hostname: cnt3
+  cnt4:
+    image: stenote/nginx-hostname
+    hostname: cnt4
+  cnt5:
+    image: stenote/nginx-hostname
+    hostname: cnt5
+  cnt6:
+    image: stenote/nginx-hostname
+    hostname: cnt6

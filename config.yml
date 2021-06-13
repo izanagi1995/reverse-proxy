@@ -1,0 +1,9 @@
+http://demo1.local:8080:
+  - http://cnt1:80
+  - http://cnt2:80
+  - http://cnt3:80
+
+http://demo2.local:8080:
+  - http://cnt4:80
+  - http://cnt5:80
+  - http://cnt6:80
