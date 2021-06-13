@@ -2,7 +2,7 @@
 
 A simple reverse proxy to balance connections between containers based on hostname
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/izanagi1995/docker-reverse-proxy?label=Latest%20release)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/izanagi1995/reverse-proxy?label=Latest%20release)
 
 ## Installation instruction
 
